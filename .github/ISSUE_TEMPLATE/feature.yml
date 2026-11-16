@@ -1,0 +1,14 @@
+name: Suggest a feature
+description: An idea that would make Step Break better for you.
+labels: [enhancement]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like Step Break to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why would it help you?

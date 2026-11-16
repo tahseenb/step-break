@@ -1,0 +1,26 @@
+name: Report a bug
+description: Something isn't working as expected.
+labels: [bug]
+body:
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How can we see it happen?
+      description: The steps that lead to the problem, if you know them.
+  - type: input
+    id: macos
+    attributes:
+      label: macOS version
+      placeholder: "e.g. macOS 15.1 (Apple menu → About This Mac)"
+  - type: input
+    id: version
+    attributes:
+      label: Step Break version
+      placeholder: "e.g. 1.0"
